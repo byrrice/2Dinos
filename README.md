@@ -3,7 +3,7 @@
 
 This is my personal videogame that I will be working on and updating throughout the summer. ? means might be implemented aka thinking about it. Transitioned to GitHub instead of using my blog to write about it. Wish I could private this repository tbh. 
 
-## General Ideas:
+## General Idea:
 
 Currently working on dinosaur game - game where dinosaurs see different colored platforms and can switch from dinosaur to dinosaur midway through level with each having different abilities, 4 dinosaurs, rescue the different dinosaurs and gain access to them, maybe have secrets hidden, can only get through different dinosaurs, dinosaur combats black and white world villain is the other guy's world ,if you don't kill any of his friends,  then you unlock his version of playing ???
 
