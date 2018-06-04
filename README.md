@@ -45,4 +45,4 @@ https://www.youtube.com/watch?v=_B1Lc6tUSx8 - how to switch character
 
 https://stackoverflow.com/questions/42207122/create-a-basic-2d-platformer-game-in-unity - general player script
 
-Shoutout to Brackeys for camera following, and various other scripts, 
+Shoutout to Brackeys for camera following, and various other scripts.
