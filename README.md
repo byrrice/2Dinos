@@ -58,4 +58,6 @@ https://www.youtube.com/watch?v=acBCegN60kw - Tighter jumping, how to get with j
 
 https://www.youtube.com/watch?v=a7CqI-IPQyg - get rid of the double jump error
 
+https://www.youtube.com/watch?v=7KNQYPcx-uU - dialogue?
+
 Shoutout to Brackeys for camera following, and various other scripts.
