@@ -22,6 +22,10 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 - [x] Basic Color Mechanic
 - [x] Tighter Jumping
 - [x] Get rid of Double Jump error
+- [X] more accurate colliders
+- [ ] Dialogue, add canvas group to make transparent
+- [ ] Enemies, damage colliders
+- [ ] Health hearts
 - [ ] Improve jumping on colored blocks (right now can jump on side)
 - [ ] Black Platfroms jumpable by other characters, what color is not jumpable by any characters?
 - [ ] Level 1
