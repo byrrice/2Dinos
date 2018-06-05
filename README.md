@@ -44,6 +44,6 @@ https://www.youtube.com/watch?v=_B1Lc6tUSx8 - how to switch character
 
 https://stackoverflow.com/questions/42207122/create-a-basic-2d-platformer-game-in-unity - general player script
 
-https://www.youtube.com/watch?v=acBCegN60kw - Tighter jumping
+https://www.youtube.com/watch?v=acBCegN60kw - Tighter jumping, how to get with just Input.GetKeyDown(KeyCode.Space) next time
 
 Shoutout to Brackeys for camera following, and various other scripts.
