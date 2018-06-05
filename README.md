@@ -40,8 +40,6 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 
 ## Resources Used:
 
-
-
 https://opengameart.org/content/minimalist-pixel-tileset - might use for background
 
 https://arks.itch.io/dino-characters - dino characters
@@ -59,5 +57,7 @@ https://www.youtube.com/watch?v=acBCegN60kw - Tighter jumping, how to get with j
 https://www.youtube.com/watch?v=a7CqI-IPQyg - get rid of the double jump error
 
 https://www.youtube.com/watch?v=7KNQYPcx-uU - dialogue?
+
+https://opengameart.org/content/pixel-hearts - for health
 
 Shoutout to Brackeys for camera following, and various other scripts.
