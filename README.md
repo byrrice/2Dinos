@@ -21,6 +21,7 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 - [x] Switching Mechanic
 - [x] Basic Color Mechanic
 - [x] Tighter Jumping
+- [x] Get rid of Double Jump error
 - [ ] Improve jumping on colored blocks (right now can jump on side)
 - [ ] Black Platfroms jumpable by other characters, what color is not jumpable by any characters?
 - [ ] Level 1
@@ -50,5 +51,7 @@ https://www.youtube.com/watch?v=_B1Lc6tUSx8 - how to switch character
 https://stackoverflow.com/questions/42207122/create-a-basic-2d-platformer-game-in-unity - general player script
 
 https://www.youtube.com/watch?v=acBCegN60kw - Tighter jumping, how to get with just Input.GetKeyDown(KeyCode.Space) next time
+
+https://www.youtube.com/watch?v=a7CqI-IPQyg - get rid of the double jump error
 
 Shoutout to Brackeys for camera following, and various other scripts.
