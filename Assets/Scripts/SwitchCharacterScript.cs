@@ -32,7 +32,7 @@ public class SwitchCharacterScript : MonoBehaviour {
 	{
 
 		// processing whichAvatarIsOn variable
-		if (Input.GetKeyDown(KeyCode.T)) {
+		if (Input.GetKeyDown(KeyCode.K)) {
 
 			// if the first avatar is on
 			if (whichAvatarIsOn == 1){

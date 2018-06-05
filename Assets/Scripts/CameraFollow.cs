@@ -26,10 +26,10 @@ public class CameraFollow : MonoBehaviour {
 			Vector3 smoothedPosition = Vector3.SmoothDamp(transform.position, desiredPosition, ref velocity, smoothSpeed);
 			transform.position = smoothedPosition;
 		}
-		if (Input.GetKeyDown(KeyCode.T) && whichAvatarIsOn == 1){
+		if (Input.GetKeyDown(KeyCode.K) && whichAvatarIsOn == 1){
 			whichAvatarIsOn = 2;
 		}
-		else if (Input.GetKeyDown(KeyCode.T) && whichAvatarIsOn == 2){
+		else if (Input.GetKeyDown(KeyCode.K) && whichAvatarIsOn == 2){
 			whichAvatarIsOn = 1;
 		}
 	}

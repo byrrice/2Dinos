@@ -5,8 +5,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-    float speed = 5f;
+	private string midjump = "n";
+	[Range(1,10)]
+	public float jumpVelocity;
+	bool jumpRequest;
+
 	bool isGrounded = false;
+
+    float speed = 5f;
+	
     Rigidbody2D rb;
     Vector3 startingPosition; 
 	[HideInInspector] public bool facingRight = true;
@@ -19,8 +26,13 @@ public class Player : MonoBehaviour {
         startingPosition = transform.position;
     }
 
+	void Update(){
+		if (Input.GetButtonDown("Jump") && (midjump == "n")){
+			jumpRequest = true;
+		}
+	}
 
-    void Update()
+    void FixedUpdate()
     {
         var input = Input.GetAxis("Horizontal"); 
         var movement = input * speed;
@@ -32,10 +44,12 @@ public class Player : MonoBehaviour {
 		else if (input < 0 && facingRight)
 			Flip();
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (jumpRequest && isGrounded)
         {
 			MyAnimator.SetBool("Ground", false);
-            rb.AddForce(new Vector3(0, 300, 0)); // Adds 300 force straight up, might need tweaking on that number
+			rb.AddForce(Vector2.up * jumpVelocity, ForceMode2D.Impulse);
+			jumpRequest = false;
+			midjump = "y";
         }
     }
 	
@@ -54,6 +68,7 @@ public class Player : MonoBehaviour {
 		{
 			MyAnimator.SetBool("Ground", true);
 			isGrounded = true;
+			midjump = "n";
 		}
 	}
 
