@@ -21,6 +21,7 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 - [x] Switching Mechanic
 - [x] Basic Color Mechanic
 - [x] Tighter Jumping
+- [ ] Improve jumping on colored blocks (right now can jump on side)
 - [ ] Black Platfroms jumpable by other characters, what color is not jumpable by any characters?
 - [ ] Level 1
 - [ ] Pause Menu
