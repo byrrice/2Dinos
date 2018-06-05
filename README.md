@@ -18,7 +18,7 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 - [x] Dinosaurs 
 - [x] Switching Mechanic
 - [x] Basic Color Mechanic
-- [ ] Tighter Jumping
+- [x] Tighter Jumping
 - [ ] Level 1
 - [ ] Pause Menu
 - [ ] Cutscenes
@@ -43,5 +43,7 @@ https://edermunizz.itch.io/free-pixel-art-forest - pixel art forest background
 https://www.youtube.com/watch?v=_B1Lc6tUSx8 - how to switch character 
 
 https://stackoverflow.com/questions/42207122/create-a-basic-2d-platformer-game-in-unity - general player script
+
+https://www.youtube.com/watch?v=acBCegN60kw - Tighter jumping
 
 Shoutout to Brackeys for camera following, and various other scripts.
