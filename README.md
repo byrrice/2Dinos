@@ -15,16 +15,16 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 
 ## Implemented/To Implement: 
 
-- [x] Menu
-- [x] Basic Camera Follow
-- [x] Dinosaurs 
-- [x] Switching Mechanic
-- [x] Basic Color Mechanic
-- [x] Tighter Jumping
-- [x] Get rid of Double Jump error
-- [X] more accurate colliders
-- [x] Improve jumping on colored blocks (right now can jump on side)
-- [x] Dialogue sort of working
+- [x] Menu 06/04
+- [x] Basic Camera Follow 06/04
+- [x] Dinosaurs 06/04
+- [x] Switching Mechanic 06/04
+- [x] Basic Color Mechanic 06/04
+- [x] Tighter Jumping 06/04
+- [x] Get rid of Double Jump error 06/07
+- [X] more accurate colliders 06/08
+- [x] Improve jumping on colored blocks (right now can jump on side) 06/11
+- [x] Dialogue sort of working 06/11
 - [ ] Improve Ground Check
 - [ ] Extra Jumps
 - [ ] Wall Jumps
