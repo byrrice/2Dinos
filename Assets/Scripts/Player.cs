@@ -8,15 +8,22 @@ public class Player : MonoBehaviour {
 	private string midjump = "n";
 	[Range(1,10)]
 	public float jumpVelocity;
-	bool jumpRequest;
+	[Range(1,10)]
+	public float speed;
 
+	[HideInInspector] public bool facingRight = true;
+
+	// for later on extra jumps
+	// may have to reconfig the whole playercontroller especially grounded check
+	// private int extraJumps;
+	// public int extraJumpsValue;
+
+	bool jumpRequest;
 	bool isGrounded = false;
 
-    float speed = 5f;
-	
+	public Transform groundCheck;
     Rigidbody2D rb;
     Vector3 startingPosition; 
-	[HideInInspector] public bool facingRight = true;
 	Animator MyAnimator;
 
     void Start()
@@ -63,7 +70,6 @@ public class Player : MonoBehaviour {
 	
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-		Debug.Log("Entered");
 		if (collision.gameObject.CompareTag("Ground"))
 		{
 			MyAnimator.SetBool("Ground", true);
@@ -74,7 +80,6 @@ public class Player : MonoBehaviour {
 
 	void OnCollisionExit2D(Collision2D collision)
 	{
-		Debug.Log("Exited");
 		if (collision.gameObject.CompareTag("Ground"))
 		{
 			isGrounded = false;

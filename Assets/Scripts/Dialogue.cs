@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Dialogue : MonoBehaviour {
 
-	public GameObject childObj;
+	[SerializeField] Canvas messageCanvas;
 
 	// Use this for initialization
 	void Start () {
-		childObj.SetActive(false);
+		messageCanvas.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -16,15 +16,17 @@ public class Dialogue : MonoBehaviour {
 		
 	}
 
-	void onTriggerEnter2D(Collider2D collider){
+	//GOT CUTSCENES WORKING THANK GOD HOLY CAPTIALIZE AN O
+	//Need to set up a sprite to tell us that it is a hint/dialogue system
+	void OnTriggerEnter2D(Collider2D collider){
 		if (collider.tag == "Player"){
-			childObj.SetActive(true);
+			messageCanvas.enabled = true;
 		}
 	}
 
-	void onTriggerExit2D(Collider2D collider){
+	void OnTriggerExit2D(Collider2D collider){
 		if (collider.tag == "Player"){
-			childObj.SetActive(false);
+			messageCanvas.enabled = false;
 		}
 	}
 }
