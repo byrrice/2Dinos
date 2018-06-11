@@ -24,10 +24,11 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 - [x] Get rid of Double Jump error
 - [X] more accurate colliders
 - [x] Improve jumping on colored blocks (right now can jump on side)
+- [x] Dialogue sort of working
+- [ ] Improve Ground Check
 - [ ] Extra Jumps
 - [ ] Wall Jumps
 - [ ] Falling Platforms
-- [ ] Dialogue, add canvas group to make transparent
 - [ ] Enemies, damage colliders
 - [ ] Health hearts
 - [ ] Black Platfroms jumpable by other characters, what color is not jumpable by any characters?
@@ -59,8 +60,9 @@ https://www.youtube.com/watch?v=acBCegN60kw - Tighter jumping, how to get with j
 
 https://www.youtube.com/watch?v=a7CqI-IPQyg - get rid of the double jump error
 
-https://www.youtube.com/watch?v=7KNQYPcx-uU - dialogue?
 
 https://opengameart.org/content/pixel-hearts - for health
+
+blackthornprod
 
 Shoutout to Brackeys for camera following, and various other scripts.
