@@ -24,7 +24,9 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 - [x] Get rid of Double Jump error 06/07
 - [X] more accurate colliders 06/08
 - [x] Improve jumping on colored blocks (right now can jump on side) 06/11
-- [x] Dialogue sort of working 06/11
+- [x] Dialogue working 06/11
+- [x] Level 1 06/11
+- [ ] Better Movement
 - [ ] Improve Ground Check
 - [ ] Extra Jumps
 - [ ] Wall Jumps
@@ -32,7 +34,6 @@ beginning cutscene blue and green approach ending hopping on platforms together,
 - [ ] Enemies, damage colliders
 - [ ] Health hearts
 - [ ] Black Platfroms jumpable by other characters, what color is not jumpable by any characters?
-- [ ] Level 1
 - [ ] Pause Menu
 - [ ] Cutscenes
 - [ ] Add pickups like fruit, golden fruit?
@@ -60,6 +61,7 @@ https://www.youtube.com/watch?v=acBCegN60kw - Tighter jumping, how to get with j
 
 https://www.youtube.com/watch?v=a7CqI-IPQyg - get rid of the double jump error
 
+https://pastebin.com/Dju3wz6J - a meatboy movement script, may be implemented for later purposes?
 
 https://opengameart.org/content/pixel-hearts - for health
 
