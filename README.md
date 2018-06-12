@@ -51,6 +51,8 @@ https://arks.itch.io/dino-characters - dino characters
 
 https://0x72.itch.io/16x16-industrial-tileset - evil character
 
+https://opengameart.org/content/pixel-hearts - hearts
+
 https://edermunizz.itch.io/free-pixel-art-forest - pixel art forest background
 
 https://www.youtube.com/watch?v=_B1Lc6tUSx8 - how to switch character 
