@@ -67,6 +67,8 @@ https://pastebin.com/Dju3wz6J - a meatboy movement script, may be implemented fo
 
 https://opengameart.org/content/pixel-hearts - for health
 
+https://opengameart.org/content/dirt-platformer-tiles - platform plus sky for level 2
+
 blackthornprod
 
 Shoutout to Brackeys for camera following, and various other scripts.
