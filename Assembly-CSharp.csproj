@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\AnimController.cs" />
      <Compile Include="Assets\Scripts\BetterJump.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CutsceneDialogue.cs" />
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\LoadLevel.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
